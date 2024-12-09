@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Hitmarker Condensed Bold;
+  src: url(.//Font/HitmarkerNormal-Bold.ttf);
+}
+@font-face {
+  font-family: Hitmarker Condensed Regular;
+  src: url(.//Font/HitmarkerCondensed-Regular.ttf);
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.imagem {
+  margin-top: 30px;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Cod ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.Cod ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Hitmarker Condensed Bold;
+}
+.video {
+  margin-left: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+video {
+  height: 90%;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.Botão {
+  margin-bottom: 35px;
+  text-decoration: none;
+  background: linear-gradient(90deg, #ff9b01, black);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: Hitmarker Condensed Bold;
+}
+
+.Botão:hover {
+  background: linear-gradient(90deg, #ff9b01, black);
+}
+#img1 {
+  height: 100vh;
+  width: 80%;
+}
+
+.pé {
+  text-align: center;
+  /* padding: 10px 0;
+  background: #ff9b01; */
+  color: white;
+  margin-top: 60px;
+  font-family: Hitmarker Condensed Regular;
+}

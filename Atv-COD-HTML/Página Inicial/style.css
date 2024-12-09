@@ -1,0 +1,161 @@
+@font-face {
+  font-family: Hitmarker Condensed Bold;
+  src: url(.//Font/HitmarkerNormal-Bold.ttf);
+}
+@font-face {
+  font-family: Hitmarker Condensed Regular;
+  src: url(.//Font/HitmarkerCondensed-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+section.MediaSocial {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.MediaSocial a {
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.MediaSocial a i {
+  display: flex;
+  justify-content: center;
+  line-height: 25px;
+  font-size: 25px;
+  transition: 0.7s ease;
+}
+
+.MediaSocial a:hover i {
+  transform: scale(1.2);
+  color: white;
+}
+
+.mediaSocial a::before {
+  content: "";
+  position: absolute;
+  left: -175%;
+  top: -100%;
+  width: 130%;
+  height: 130%;
+  transform: rotate(45deg);
+  background-color: white;
+}
+
+.mediaSocial a:hover::before {
+  animation: icones 0.7s 1 forwards;
+}
+
+@keyframes icones {
+  0% {
+    left: -175%;
+    top: -100%;
+  }
+  50% {
+    left: 10%;
+    top: -30%;
+  }
+  100% {
+    left: -15%;
+    top: -15%;
+  }
+}
+.Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: black;
+}
+/* .Menu .Logo {
+  font-size: 25px;
+  color: white;
+} */
+
+.Cod ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.Cod ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Hitmarker Condensed Bold;
+}
+.div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+.imagem img {
+  width: 100%;
+  border-radius: 25px;
+}
+.texto h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-family: Hitmarker Condensed Bold;
+}
+.texto p {
+  margin-bottom: 20px;
+  color: white;
+  font-family: Hitmarker Condensed Regular;
+}
+.botão {
+  text-decoration: none;
+  background: linear-gradient(90deg, #ff9b01, black);
+  /* background: white; */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: Hitmarker Condensed Bold;
+}
+
+.botão:hover {
+  background: linear-gradient(90deg, #ff9b01, black);
+  /* background: #ff9b01; */
+}
+#img {
+  height: 100vh;
+  width: 80%;
+}
+#img1 {
+  height: 100vh;
+  width: 80%;
+}
+
+.pé {
+  margin-top: 55px;
+  gap: 15px;
+  text-align: center;
+  /* padding: 0 0;
+  background: #ff9b01; */
+  color: white;
+  margin-top: 20px;
+  font-family: Hitmarker Condensed Regular;
+}
+.Logos {
+  margin-top: 45px;
+  height: 30px;
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#img13 {
+  height: auto;
+  width: 200px;
+}
